@@ -12,6 +12,7 @@ Things you may want to cover:
 * System dependencies
 
 redis
+yarn
 
 * Configuration
 
