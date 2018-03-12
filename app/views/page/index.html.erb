@@ -1,0 +1,9 @@
+<h1>Latency Test</h1>
+
+<%= link_to 'Html', onclick="javascript:window.location = Date.now()" %>
+<%= link_to 'Turbolinks', onclick="javascript:Turbolinks.visit(Date.now())" %>
+<%= link_to 'Ajax JSON', onclick='javascript:do_ajax()' %>
+<%= link_to 'Ajax JS', onclick='javascript: $.ajax({url: "/"+Date.now(), dataType: "script"})' %>
+<%= link_to 'ActionCable', onclick="javascript:App.room.send({time:Date.now()})" %>
+<%# Date.now() - @time %>
+<div id="messages"></div>
