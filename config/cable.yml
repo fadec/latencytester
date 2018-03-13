@@ -1,21 +1,19 @@
 
-redis: &redis
-  adapter: redis
-  url: redis://localhost:6379/1
-
-production: *redis
-development: *redis
-test: *redis
-
-# development:
-#   adapter: async
-
-# test:
-#   adapter: async
-
-# production:
+# redis: &redis
 #   adapter: redis
 #   url: redis://localhost:6379/1
-#   channel_prefix: latency_test_production
+
+# production: *redis
+# development: *redis
+# test: *redis
+
+development:
+  adapter: async
+
+test:
+  adapter: async
+
+production:
+  adapter: async
 
 

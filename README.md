@@ -11,8 +11,7 @@ Things you may want to cover:
 
 * System dependencies
 
-redis
-yarn
+jquery, yarn
 
 * Configuration
 
