@@ -37,6 +37,7 @@ none
 * Deployment instructions
 
 $ rake assets:precompile && RAILS_SERVE_STATIC_FILES=true rails server -e production -p 4000
+
 $ rake assets:clobber
 
 * ...
